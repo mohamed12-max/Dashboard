@@ -1,0 +1,166 @@
+:root {
+  --blue-color: #0075ff;
+  --blue-alt-color: #0d69d5;
+  --orange-color: #f59e0b;
+  --green-color: #22c55e;
+  --red-color: #f44336;
+  --grey-color: #888;
+}
+.p-10 {
+    padding: 10px;
+}
+.p-15 {
+    padding: 15px;
+}
+.p-20 {
+    padding: 20px;
+}
+.pt-20 {
+    padding-top: 20px;
+}
+/* margin */
+.m-20 {
+    margin: 20px;
+}
+.mt-0 {
+    margin-top: 0;
+}
+.mt-5 {
+    margin-top: 5px;
+}
+.mt-10 {
+    margin-top: 10px;
+}
+.mt-20 {
+    margin-top: 20px;
+}
+.mb-10 {
+    margin-bottom: 10px;
+}
+.mb-20 {
+    margin-bottom: 20px;
+}
+.ml-10 {
+    margin-left: 10px;
+}
+.gap-20 {
+    gap: 20px;
+}
+/* color */
+.bg-eee {
+    background-color: #eee;
+}
+.bg-white {
+    background-color: white;
+}
+.bg-blue {
+    background-color: var(--blue-color);
+}
+.bg-orange {
+    background-color: var(--orange-color);
+}
+.bg-green {
+    background-color: var(--green-color);
+}
+.c-black {
+    color: black;
+}
+.c-white {
+    color: white;
+}
+.c-grey {
+    color: var(--grey-color);
+}
+.c-blue {
+    color: var(--blue-color);
+}
+.c-orange {
+    color: var(--orange-color);
+}
+.c-green {
+    color: var(--green-color);
+}
+
+/* border */
+.b-none {
+    border: none;
+}
+.rad-6 {
+    border-radius: 6px;
+}
+.rad-10 {
+    border-radius: 10px;
+}
+/* width */
+.w-full {
+    width: 100%;
+}
+.w-fit {
+    width: fit-content;
+}
+/* flex */
+.d-flex {
+    display: flex;
+}
+.d-block {
+    display: block;
+}
+.space-between {
+    justify-content: space-between;
+}
+.align-c{
+    align-items: center;
+
+}
+
+@media (max-width: 767px) {
+    .block-mobile {
+        display: block;
+    }
+    .hide-mobile {
+        display: none;
+    }
+}
+/* grid */
+.d-grid {
+    display: grid;
+}
+/* position */
+.p-relative {
+    position: relative;
+}
+/* font */
+.text-c {
+    text-align: center;
+}
+.fw-bold {
+    font-weight: bold;
+}
+.fs-14 {
+    font-size: 14px;
+}
+.fs-15 {
+    font-size: 15px;
+}
+@media (max-width: 767px) {
+    .text-c-mobile {
+        text-align: center;
+    }
+}
+
+/* component */
+.center-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.between-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.btn-shape {
+    padding: 5px 10px;
+    border-radius: 6px;
+}
+
