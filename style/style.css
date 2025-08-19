@@ -148,17 +148,20 @@ ul {
     width: 50px;
 }
 .wrapper {
-    grid-template-columns: repeat(autofill, minmax(450px, 1fr));
-    margin-left: 20px;
-    margin-right: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
 }
 @media (max-width: 767px) {
-    .wrapper {
+  .wrapper {
     grid-template-columns: minmax(200px, 1fr);
     margin-left: 10px;
     margin-right: 10px;
+    gap: 10px;
+  }
 }
-}
+
 
 
 @media (max-width: 767px) {
@@ -282,4 +285,15 @@ ul {
 .green .icon,
 .green .progress {
     background-color: rgba(34 197 94 / 20%);
+}
+
+/* tickets */
+.tickets .box {
+  border: 1px solid #ccc;
+  width: calc(50% - 10px);
+}
+@media (max-width: 767px) {
+  .tickets .box {
+    width: 100%;
+  }
 }
