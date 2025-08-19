@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Login Form</title>
+    <style>
+        body{
+            background-color: #0D69D5;
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+            width: 500px;
+            height: 200px;
+            margin: 100px auto;
+            padding: 40px;
+            border: 1px solid #ccc;
+            border-radius: 50px;
+            background-color: #f9f9f9;
+        }
+        #name, #email, #password{
+            align-self: center;
+            width: 50%;
+            height: 30px;
+            margin-bottom: 5px;
+            padding: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        #submit{
+            align-self: center;
+            margin-top: 20px;
+            width: 80px;
+            height: 30px;
+            padding: 5px;
+            background-color: rgb(0, 0, 0);
+            color: white;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        #rememberMe{
+            display: flex;
+            flex-direction: row;
+        }
+        #submit:hover{
+            background-color: rgb(14, 14, 151);
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <label for="name"></label>
+        <input type="text" id="name" placeholder="Enter your name" required>
+        <label for="email"></label>
+        <input type="email" id="email" placeholder="Enter your email" required>
+        <label for="password"></label>
+        <input type="password" id="password" placeholder="Enter your password" required>
+        
+        
+        <label for="rememberMe">
+            <input type="checkbox" id="rememberMe"> Remember me
+        </label> 
+
+        <input type="submit" value="Login" id="submit">
+    </form>
+    <script src="login.js"></script>
+</body>
+</html>
